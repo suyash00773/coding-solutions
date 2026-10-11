@@ -1,0 +1,17 @@
+
+#include <iostream>
+using namespace std;
+int main() {
+    int T;
+    cin >> T;
+    while (T--) {
+        int N, X;
+        cin >> N >> X;
+
+        int pizza = (N * X + 3) / 4;
+
+      cout << pizza << endl;
+    }
+
+    return 0;
+}
